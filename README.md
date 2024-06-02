@@ -26,6 +26,8 @@ Uma aplicação web desenvolvida em VueJS + Node.js + Banco de Dados Azure que p
 ![image](https://github.com/VNCSbpuhl/Prova-2/assets/141787258/85e458ec-3289-4e5f-924f-6ac98d1690f3)
 ![image](https://github.com/VNCSbpuhl/Prova-2/assets/141787258/74976ef3-5fa2-4479-b76a-c63ccb964446)
 
+## Site online
+https://magical-empanada-0168c6.netlify.app/
 
 ## Licença
 Este projeto está licenciado sob a Licença MIT.
