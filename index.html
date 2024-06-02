@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Herói e Vilão</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+    <div id="app">
+        <div class="personagem">
+            <div class="barra-vida" :style="{width: heroi.vida + '%'}">{{ heroi.vida }}%</div>
+            <div class="sprite"><img src="images/Cadu.png" alt="Cadu" width="160" height="160"></div>
+            <h1>Cadu</h1>
+            <div class="acoes">
+                <button @click="atacar(true)">Atacar</button>
+                <button @click="defender(true)">Defender</button>
+                <button @click="pocao(true)">Usar Poção</button>
+                <button @click="correr(true)">Correr</button>
+            </div>
+        </div>
+
+        <div class="personagem">
+            <div class="barra-vida" :style="{width: vilao.vida + '%'}">{{ vilao.vida }}%</div>
+            <div class="sprite"><img src="images/GataRua.png" alt="GataRua" width="160" height="160"></div>
+            <h1>Gata de rua</h1>
+            <button onclick="window.open('dashboard.html','_blank')">Dashboard</button>
+        </div>        
+    </div>
+</body>
+</html>
+<script type="module" src="index.js"></script>

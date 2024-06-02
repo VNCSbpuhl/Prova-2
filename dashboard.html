@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo Herói e Vilão</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div id="app" class="container">
+        <h1>Dashboard</h1>
+        <div class="personagens">
+            <div class="personagem">
+                <h2>Herói</h2>
+                <div>Vida: {{ heroiVida }}%</div>
+            </div>
+            <div class="personagem">
+                <h2>Vilão</h2>
+                <div>Vida: {{ vilaoVida }}%</div>
+            </div>
+        </div>
+        <div>
+            <h3>Histórico de Ações</h3>
+            <ul id="historico-list" class="historico-list">
+                <p>Última ação</p>
+                <li v-for="(acao, index) in historico" :key="acao.id">
+                    {{ acao.acao }}
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <script src="dashboard.js"></script>
+</body>
+</html>
