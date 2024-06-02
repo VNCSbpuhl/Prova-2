@@ -190,9 +190,11 @@ app.get('/', (req, res) => {
 app.get('/dashboard', (req, res) => {
     res.sendFile(path.join(__dirname, 'dashboard.html'));
 });
+
 app.get('/login', (req, res) => {
     res.sendFile(path.join(__dirname, 'login.html'));
 });
+
 app.get('/index', (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
