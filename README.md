@@ -22,7 +22,7 @@ Uma aplicação web desenvolvida em VueJS + Node.js + Banco de Dados Azure que p
 
 ## Prints
 ![image](https://github.com/VNCSbpuhl/Prova-2/assets/141787258/3d8b40a1-54a7-4f45-becf-0ddeb8cbc02d)
-![image](https://github.com/VNCSbpuhl/Prova-2/assets/141787258/0ab66f06-cbd2-4cd3-80a7-65725a31cc79)]
+![image](https://github.com/VNCSbpuhl/Prova-2/assets/141787258/0ab66f06-cbd2-4cd3-80a7-65725a31cc79)
 ![image](https://github.com/VNCSbpuhl/Prova-2/assets/141787258/85e458ec-3289-4e5f-924f-6ac98d1690f3)
 ![image](https://github.com/VNCSbpuhl/Prova-2/assets/141787258/74976ef3-5fa2-4479-b76a-c63ccb964446)
 
