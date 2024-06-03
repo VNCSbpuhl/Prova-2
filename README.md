@@ -27,7 +27,7 @@ Uma aplicação web desenvolvida em VueJS + Node.js + Banco de Dados Azure que p
 ![image](https://github.com/VNCSbpuhl/Prova-2/assets/141787258/74976ef3-5fa2-4479-b76a-c63ccb964446)
 
 ## Site online
-[https://magical-empanada-0168c6.netlify.app/](https://effortless-cassata-aeb53f.netlify.app/)
+https://cadu-vs-gataderua.netlify.app/
 
 ## Licença
 Este projeto está licenciado sob a Licença MIT.
